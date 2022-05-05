@@ -23,41 +23,41 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <ul class="nav justify-content-around bg-dark">
-      <li id="logo">Restaurantly</li>
-      <li class="nav-item">
-        <a class="nav-link active text-light" href="#">modi</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#">Menu</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#">Specials</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#">Events</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#">Chefs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#">Gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#">Dropdowns</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-light" href="#">Contact</a>
-      </li>
-      <li>
-        <button class="btn btn-dark rounded-pill">Book a table</button>
-      </li>
-    </ul>
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <ul class="nav justify-content-around bg-dark mt-4 navbar">
+        <li id="logo">Restaurantly</li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Specials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Chefs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Dropdowns</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">Contact</a>
+        </li>
+        <li>
+          <button class="btn btn-dark rounded-pill border">Book a table</button>
+        </li>
+      </ul>
+    </header>
+    
     <section id="landing">
-      <div class="container landingpage text-light">
+      <div class="container landing-page text-light">
         <div
           class="d-flex flex-column justify-content-center"
           style="height: 100vh"
@@ -68,12 +68,9 @@
           <h3 id="landing-subtitle">
             Delivering great food for more than 18 years!
           </h3>
-          <div
-            class="d-flex mt-4 d-flex justify-content-between"
-            style="width: 200px"
-          >
-            <button class="btn rounded-pill border-dark">Our menu</button>
-            <button class="btn rounded-pill border-dark">Book a table</button>
+          <div class="d-flex mt-4 d-flex landing-page-buttons">
+            <button class="btn rounded-pill border text-light">Our menu</button>
+            <button class="btn rounded-pill border text-light">Book a table</button>
           </div>
         </div>
       </div>
@@ -327,7 +324,7 @@
 
     <!-- Events -->
 
-    <section class="events"><div class="container">
+    <section id="events"><div class="container">
      <div class="container">
         <h5 class="section-title">Events</h5>
         <span class="line"></span>
@@ -335,7 +332,7 @@
 
         <!-- events carousel -->
         <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
-  <div class="carousel-indicators">
+  <div class="carousel-indicators pt-4">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle"
             style="width: 10px; height: 10px" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active rounded-circle"
@@ -343,10 +340,10 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="active rounded-circle"
             style="width: 10px; height: 10px" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner" style="height: 400px;">
     <div class="carousel-item active">
       <div class="row">
-        <div class="col-lg-6"><img src="./Images/Champagne Tasting.jpg" class="d-block w-50" alt="Champagne"></div> 
+        <div class="col-lg-6"><img src="./Images/Champagne Tasting.jpg" class="d-block" alt="Champagne"></div> 
          <div class="events-text text-light col-lg-6">
            <h4 class="heading">Champagne Tasting</h4>
            <p class="price">R399.90</p>
@@ -357,7 +354,7 @@
     </div>
     <div class="carousel-item">
       <div class="row">
-        <div class="col-lg-6"><img src="./Images/Sushi Tasting.jpg" class="d-block w-50" alt="Sushi"></div> 
+        <div class="col-lg-6"><img src="./Images/Sushi Tasting.jpg" class="d-block" alt="Sushi"></div> 
       <div class="events-text text-light col-lg-6">
         <h4 class="heading">Sushi Tasting</h4>
         <p class="price">R299.90</p>
@@ -368,7 +365,7 @@
       </div>
     <div class="carousel-item">
       <div class="row">
-<div class="col-lg-6"> <img src="./Images/Buffet Sundays.jpg" class="d-block w-50" alt="Buffet"></div>
+<div class="col-lg-6"> <img src="./Images/Buffet Sundays.jpg" class="d-block" alt="Buffet"></div>
       <div class="events-text text-light col-lg-6">
         <h4 class="heading">Buffet Sundays</h4>
         <p class="price">R199.90</p>
@@ -389,6 +386,49 @@
 </div>
     </div></section>
 
+    <!-- Reservation  -->
+    <section id="reservation"><div class="container">
+      <div class="container">
+        <h5 class="section-title">Reservation</h5>
+        <span class="line"></span>
+        <h2 class="section-subtitle">Book a Table</h2>
+
+        <!-- Form  -->
+        <div class="row justify-content-between booking-form mt-4">
+        <div class="form-floating col-sm-4 mb-4 booking-input">
+          <input type="text" class="form-control" id="floatingInput" placeholder="Your Name">
+          <label for="floatingInput">Your Name</label>
+        </div>
+        <div class="form-floating col-sm-4 mb-4 booking-input">
+          <input type="email" class="form-control" id="floatingEmail" placeholder="Your Email">
+          <label for="floatingEmail">Your Email</label>
+        </div>
+        <div class="form-floating col-sm-4 mb-4 booking-input">
+          <input type="text" class="form-control" id="floatinginput" placeholder="Your Phone">
+          <label for="floatingInput">Your Phone</label>
+        </div>
+        <div class="form-floating col-sm-4 mb-4 booking-input">
+          <input type="date" class="form-control" id="floatingDate" placeholder="Date">
+          <label for="floatingDate">Date</label>
+        </div>
+        <div class="form-floating col-sm-4 mb-4 booking-input">
+          <input type="time" class="form-control" id="floatingTime" placeholder="Time">
+          <label for="floatingTime">Time</label>
+        </div>
+        <div class="form-floating col-sm-4 mb-4 booking-input">
+          <input type="number" class="form-control" id="floatingPax" placeholder="# of People">
+          <label for="floatingPax"># of People</label>
+        </div>
+        </div>
+
+        <div class="form-floating">
+          <textarea class="form-control booking-message" name="floatingMessage" placeholder="Message"></textarea>
+          <label for="floatingMessage">Message</label>
+        </div>
+        <div>
+          <button class="btn booking-button border d-flex" type="submit">Book a Table</button>
+        </div>
+    </div></section>
 
     <section class="testimony"><div class="container">
       <div class="owl-carousel">
@@ -401,7 +441,7 @@
   <div> Your Content </div>
 </div>
     </div></section>
-    <section><div class="container"></div></section>
+    
     <section><div class="container"></div></section>
     <section><div class="container"></div></section>
     <section><div class="container"></div></section>

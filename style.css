@@ -129,11 +129,51 @@ table {
   color: #fff;
   text-transform: uppercase;
   align-items: center;
+  margin-top: 10px;
+  font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+#header {
+  position: fixed;
+  opacity: 0.8;
+}
+.navbar {
+  width: 100vw;
+  width: 100%;
+  position: relative;
+  background: rgba(12, 11, 9, 0.6);
+  border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  top: 40px;
+  opacity: 0.8;
 }
 .nav {
   width: 100%;
   width: 100vw;
   position: relative;
+}
+.navbar-button {
+  border-color: #cda45e !important;
+  border: solid 2px #cda45e !important;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: white;
+    border: 2px solid #cda45e;
 }
 #landing {
   background-image: url(./Images/Restuarant\ Table.jpg);
@@ -156,6 +196,25 @@ table {
   font-family: "Playfair Display", serif;
   color: #fff;
   font-size: 22px;
+}
+.landing-page-buttons {
+  /* width: 250px; */
+  gap: 20px;
+}
+.landing-page button {
+  border: solid 2px #cda45e !important;
+  font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: white;
+    border: 2px solid #cda45e;
+    font-family: "Open Sans", sans-serif;
 }
 .line {
   width: 100px;
@@ -185,7 +244,7 @@ table {
   font-weight: 700;
 }
 #about {
-  background: url(./Images/Restuarant\ Table.jpg) center center;
+  background: url(./Images/Restuarant\ Table.jpg) center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
@@ -325,14 +384,23 @@ table {
   border-color: #cda45e;
 }
 
+
 /* Events */
-.events {
-  background-color: #1a1814;
+#events {
+    background: url(./Images/Restuarant\ Table.jpg) center;
+    background-size: cover;
+    position: relative;
+    padding: 80px 0;
+    background-attachment: fixed;
+    opacity: 0.8;
 }
 .carousel-item img {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+.carousel-indicators .active {
+  color: #cda45e !important;
 }
 .events-text h4 {
   font-weight: 600;
@@ -346,4 +414,39 @@ table {
 }
 .events-text span {
   border-bottom: 2px solid #cda45e;
+}
+#reservation {
+  background-color: #1a1814;
+}
+.booking-input,
+.booking-message {
+  background-color: transparent !important;
+  color: #cda45e;
+  border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    background: #0c0b09;
+    border-color: #625b4b;
+}
+.booking-message {
+  height: 100px !important;
+}
+.form-floating>.form-control {
+  background-color: transparent !important;
+  border: solid 0.1px #625b4b;;
+}
+.booking-button {
+  background: #cda45e;
+    border: none !important;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    justify-items: center;
+    margin-inline: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.booking-form {
+  
 }
