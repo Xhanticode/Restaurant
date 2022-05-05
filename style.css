@@ -162,6 +162,7 @@ table {
   height: 1px;
   background: #fff;
   display: block;
+  margin-bottom: 30px;
 }
 #why-us {
   height: 50%;
@@ -204,8 +205,8 @@ table {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
-  line-height: 1px;
-  margin: 50px 0 20px 0;
+  line-height: 20px;
+  padding-top: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
@@ -218,22 +219,22 @@ table {
   font-family: "Playfair Display", serif;
   color: #cda45e;
 }
-.menu, 
+.menu,
 #menu {
   background-color: #201d18;
 }
 .menu-groups div {
   cursor: pointer;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1;
-    color: #fff;
-    margin: 50px 0px;
-    transition: all ease-in-out 0.3s;
-    border-radius: 50px;
-    font-family: "Playfair Display", serif;
-    width: fit-content;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+  margin: 50px 0px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 50px;
+  font-family: "Playfair Display", serif;
+  width: fit-content;
 }
 .menu-item img {
   width: 60px;
@@ -256,11 +257,11 @@ table {
   margin-bottom: 10px;
 }
 .menu-text p {
-    font-style: italic;
-    font-size: 14px;
-    font-family: "Poppins", sans-serif;
-    color: rgba(255, 255, 255, 0.5);
-    padding-left: 10px;
+  font-style: italic;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 10px;
 }
 .item-price {
   display: flex;
@@ -268,10 +269,10 @@ table {
   padding-left: 10px;
 }
 .price {
-    z-index: 3;
-    padding: 0 10px;
-    font-weight: 600;
-    color: #cda45e;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+  color: #cda45e;
 }
 .dotted-line {
   border-bottom: dotted 2px;
@@ -279,4 +280,70 @@ table {
   width: 60%;
   height: 10px;
   padding-inline: 20px;
+}
+
+/* Specials */
+
+.specials {
+  background-color: #1a1814;
+}
+.tab-pane img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+.tab-pane h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Playfair Display", serif;
+}
+.tab-pane p {
+  color: #aaaaaa;
+}
+.specials-nav {
+  border-right: solid 2px #cda45e;
+}
+.specials-nav-link {
+  background-color: #1a1814;
+  border: 0;
+  padding: 12px 15px;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 0;
+  border-right: 2px solid #cda45e;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.nav-pills .nav-link.active {
+  color: #1a1814;
+  background: #cda45e;
+  border-color: #cda45e;
+}
+
+/* Events */
+.events {
+  background-color: #1a1814;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.events-text h4 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #cda45e;
+  font-family: "Playfair Display", serif;
+  line-height: 2;
+}
+.events-text p {
+  line-height: 2;
+}
+.events-text span {
+  border-bottom: 2px solid #cda45e;
 }
