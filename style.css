@@ -444,24 +444,58 @@ table {
   justify-items: center;
   margin-inline: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 /* Testimony */
 
+.testimony {
+  background-color: rgb(26, 24, 20);
+}
 .swiper {
-  width: 600px;
-  height: 300px;
+  width: 100vw;
+  height: auto;
 }
 .swiper-slide {
-  width: 516px;
+  width: 150px;
   margin-right: 20px;
   transition-property: transform;
 }
 .swiper-slide img {
   border-radius: 50%;
-  /* margin: -40px 0 0 40px; */
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
   position: relative;
   z-index: 2;
   border: 6px solid rgba(255, 255, 255, 0.2);
+}
+.swiper-text-box {
+  box-sizing: content-box;
+  min-height: 150px;
+  width: 400px;
+  background-color: rgb(38, 35, 29);
+}
+.swiper-text-box p {
+  font-style: italic;
+  line-height: 2;
+  margin: 0px 15px;
+  padding: 20px 20px 60px;
+  border-radius: 6px;
+  position: relative;
+  font-family: "Open Sans", serif;
+}
+.swiper-profile {
+  margin: -40px 0 0 30px;
+}
+.swiper-profile h3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+/* Gallery */
+
+.gallery {
+  background-color: rgb(26, 24, 20);
+  height: 400px;
 }
