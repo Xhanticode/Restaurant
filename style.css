@@ -131,12 +131,12 @@ table {
   align-items: center;
   margin-top: 10px;
   font-size: 28px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 300;
-    letter-spacing: 1px;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
 }
 #header {
   position: fixed;
@@ -164,16 +164,16 @@ table {
   border: solid 2px #cda45e !important;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 50px;
-    transition: 0.3s;
-    line-height: 1;
-    color: white;
-    border: 2px solid #cda45e;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  border: 2px solid #cda45e;
 }
 #landing {
   background-image: url(./Images/Restuarant\ Table.jpg);
@@ -204,17 +204,17 @@ table {
 .landing-page button {
   border: solid 2px #cda45e !important;
   font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 12px 30px;
-    border-radius: 50px;
-    transition: 0.3s;
-    line-height: 1;
-    color: white;
-    border: 2px solid #cda45e;
-    font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.3s;
+  line-height: 1;
+  color: white;
+  border: 2px solid #cda45e;
+  font-family: "Open Sans", sans-serif;
 }
 .line {
   width: 100px;
@@ -384,15 +384,14 @@ table {
   border-color: #cda45e;
 }
 
-
 /* Events */
 #events {
-    background: url(./Images/Restuarant\ Table.jpg) center;
-    background-size: cover;
-    position: relative;
-    padding: 80px 0;
-    background-attachment: fixed;
-    opacity: 0.8;
+  background: url(./Images/Restuarant\ Table.jpg) center;
+  background-size: cover;
+  position: relative;
+  padding: 80px 0;
+  background-attachment: fixed;
+  opacity: 0.8;
 }
 .carousel-item img {
   width: 100%;
@@ -423,30 +422,46 @@ table {
   background-color: transparent !important;
   color: #cda45e;
   border-radius: 0;
-    box-shadow: none;
-    font-size: 14px;
-    background: #0c0b09;
-    border-color: #625b4b;
+  box-shadow: none;
+  font-size: 14px;
+  background: #0c0b09;
+  border-color: #625b4b;
 }
 .booking-message {
   height: 100px !important;
 }
-.form-floating>.form-control {
+.form-floating > .form-control {
   background-color: transparent !important;
-  border: solid 0.1px #625b4b;;
+  border: solid 0.1px #625b4b;
 }
 .booking-button {
   background: #cda45e;
-    border: none !important;
-    padding: 10px 35px;
-    color: #fff;
-    transition: 0.4s;
-    border-radius: 50px;
-    justify-items: center;
-    margin-inline: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  border: none !important;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  justify-items: center;
+  margin-inline: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.booking-form {
-  
+
+/* Testimony */
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+.swiper-slide {
+  width: 516px;
+  margin-right: 20px;
+  transition-property: transform;
+}
+.swiper-slide img {
+  border-radius: 50%;
+  /* margin: -40px 0 0 40px; */
+  position: relative;
+  z-index: 2;
+  border: 6px solid rgba(255, 255, 255, 0.2);
 }
